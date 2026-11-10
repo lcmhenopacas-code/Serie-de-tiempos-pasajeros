@@ -1,0 +1,20 @@
+# Entorno local
+.venv/
+__pycache__/
+*.pyc
+
+# Archivo de bloqueo de uv: en GitHub usamos requirements.txt
+uv.lock
+
+# Datos locales que esta app no necesita
+Datos/apple_diario.csv
+Datos/ventas_diarias_olist.csv
+
+# Configuración secreta de Streamlit
+.streamlit/secrets.toml
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
